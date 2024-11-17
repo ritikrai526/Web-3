@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .header {
+    background: #4A90E2;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 20px;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .nav-links .cta {
+    background: #fff;
+    color: #4A90E2;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero .btn {
+    background: #4A90E2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .feature {
+    background: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+  }
+  
+  /* Use Cases Section */
+  .use-cases {
+    padding: 2rem 0;
+    background: #f4f4f4;
+  }
+  .use-cases h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .use-case-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .use-case {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+  }
+  
+  /* Demo Section */
+  .demo {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .demo h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .demo-form {
+    display: inline-block;
+    text-align: left;
+  }
+  .demo-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .demo-form input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .demo-form .btn {
+    background: #4A90E2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
